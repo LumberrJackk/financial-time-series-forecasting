@@ -32,17 +32,15 @@ To explore how time-frequency signal processing and deep learning can be combine
 ├── plot_frequency_all.png      # Frequency spectrum — all 3 companies
 ├── plot_spectrogram_all.png    # STFT Spectrogram — all 3 companies
 ├── plot_cnn_architecture.png   # CNN architecture diagram
-└── plot_predictions.png        # Predicted vs actual stock prices
+├── predict_all.py              # Task 3 — CNN predictions for all 3 companies
+└── plot_predictions_all.png    # Predicted vs actual — all 3 companies
 ```
-
 ## Results
-| Metric | Value |
-|--------|-------|
-| MSE | 21,165.37 |
-| RMSE | 145.48 INR |
-| MAE | 111.32 INR |
-| Avg Actual Price | ₹2,805.25 |
-| Avg Predicted Price | ₹2,795.17 |
+| Company | MSE | RMSE |
+|---------|-----|------|
+| TCS | 26,109.47 | 161.58 INR |
+| Infosys | 4,840.90 | 69.58 INR |
+| Reliance | 5,809.70 | 76.22 INR |
 
 ## How to Run
 ```bash
