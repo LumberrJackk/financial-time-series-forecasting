@@ -50,6 +50,7 @@ python main.py
 python signal_processing.py
 python cnn_model.py
 python analysis.py
+python predict_all.py
 ```
 
 ## References
