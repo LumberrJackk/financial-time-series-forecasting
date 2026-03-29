@@ -1,5 +1,6 @@
 # Pattern Recognition for Financial Time Series Forecasting
 
+## Student Details
 Name: **SIVANANDHA K**  
 Registration Number: **TCR24CS064**  
 Course: Pattern Recognition  
