@@ -24,23 +24,16 @@ To explore how time-frequency signal processing and deep learning can be combine
 
 ## Project Structure
 ```
-├── main.py                    # Task 1 — Data collection and time series plot
-├── signal_processing.py       # Task 2 — Fourier Transform and STFT spectrogram
-├── cnn_model.py               # Task 3 — CNN model training and prediction
-├── analysis.py                # Task 4 — Evaluation and error analysis
-├── stock_prices.csv           # Downloaded stock price dataset
-├── plot_timeseries.png        # Time series plot (Task 1)
-├── plot_normalized_signal.png # Normalized signal plot
-├── plot_frequency_spectrum.png# Frequency spectrum (Task 2)
-├── plot_spectrogram.png       # STFT Spectrogram (Task 2)
-├── plot_cnn_architecture.png  # CNN architecture diagram (Task 3)
-├── plot_predictions.png       # Predicted vs actual prices (Task 3)
-├── plot_loss_curve.png        # Training loss curve (Task 3)
-├── plot_analysis.png          # Full prediction analysis (Task 4)
-├── plot_errors.png            # Per-sample error plot (Task 4)
-├── plot_frequency_all.png     # Frequency spectrum — all 3 companies
-├── plot_spectrogram_all.png   # STFT Spectrogram — all 3 companies
-└── plot_normalized_all.png    # Normalized signals — all 3 companies
+├── main.py                     # Task 1 — Data collection and time series plot
+├── signal_processing.py        # Task 2 — Fourier Transform and STFT spectrogram
+├── cnn_model.py                # Task 3 — CNN model training and prediction
+├── analysis.py                 # Task 4 — Evaluation using MSE
+├── stock_prices.csv            # Downloaded stock price dataset
+├── plot_timeseries.png         # Time series plot
+├── plot_frequency_all.png      # Frequency spectrum — all 3 companies
+├── plot_spectrogram_all.png    # STFT Spectrogram — all 3 companies
+├── plot_cnn_architecture.png   # CNN architecture diagram
+└── plot_predictions.png        # Predicted vs actual stock prices
 ```
 
 ## Results
@@ -51,19 +44,15 @@ To explore how time-frequency signal processing and deep learning can be combine
 | MAE | 111.32 INR |
 | Avg Actual Price | ₹2,805.25 |
 | Avg Predicted Price | ₹2,795.17 |
-| Error Rate | ~5.2% |
 
 ## How to Run
 ```bash
-# Install dependencies
 pip install numpy pandas matplotlib yfinance scipy scikit-learn tensorflow seaborn
 
-# Run in order
-python main.py                 # Download data and plot time series
-python signal_processing.py   # Generate spectrograms
-python cnn_model.py           # Train CNN and predict
-python analysis.py            # Evaluate results
-python cnn_architecture.py    # Generate architecture diagram
+python main.py
+python signal_processing.py
+python cnn_model.py
+python analysis.py
 ```
 
 ## References
