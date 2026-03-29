@@ -4,7 +4,6 @@
 Name: **SIVANANDHA K**  
 Registration Number: **TCR24CS064**  
 Course: Pattern Recognition  
-Assignment: Second Assignment  
 
 ---
 
